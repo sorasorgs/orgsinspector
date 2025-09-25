@@ -10,7 +10,7 @@ import time
 from urllib.parse import urlparse
 from botocore.exceptions import ClientError, BotoCoreError
 
-# ログ設定（機密情報を含まないよう設定）
+# ログ設定（機密情報を含まないよう設
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
